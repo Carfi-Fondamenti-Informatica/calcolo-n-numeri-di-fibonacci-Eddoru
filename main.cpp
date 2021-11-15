@@ -12,7 +12,7 @@ int main() {
             d = c + b;
             cout << d << endl;
             c = b;
-            c = d;
+            b = d;
         }
     }else{
         cout << "errore" << endl;
