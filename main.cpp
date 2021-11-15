@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n=0, a=1, b=1,c=0,d=0;
+    int n, a=1, b=1,c=0,d;
 
     cin >> n;
 
@@ -11,7 +11,7 @@ int main() {
         for (a = 2; a <= n; a++) {
             d = c + b;
             cout << d << endl;
-            b = c;
+            c = b;
             c = d;
         }
     }else{
